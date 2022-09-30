@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PortFolio</title>
+    <meta charset="utf-8">
+    <meta description="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header id="header" style="background-color:antiquewhite;">
+        <h1 class="site-title"><a href="index.html"><img src="" alt=""></a></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mainvisual">
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+
+            </picture>
+        </div>
+
+        <section id="about" class="wrapper" style=" border-bottom:1px solid #333;">
+            <h2 class="sec-title">About</h2>
+            <p></p>
+            <div class="row" style="display:flex; margin-bottom: 100px;">
+                <div class="" style="margin-left:200px;">
+                    <img src="C:\Users\Tomoki\OneDrive\デスクトップ\socialtech\images\portfolio.png"
+                        style="width: 200px; height:200px; border-radius:50%;">
+                </div>
+                <div class="" style="margin-left:100px;;">
+                    <ul>
+                        <li>大西智貴</li>
+                        <li>2000年生まれ現在22歳</li>
+                        <li>兵庫県出身</li>
+                        <li>和歌山在住の大学生</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="works" class="wrapper" style=" border-bottom:1px solid #333; text-align:center;">
+            <h2 class="sec-title">my skill</h2>
+            <ul>
+                <li><img src="https://th.bing.com/th/id/OIP.FQ4WTH9esBkW6ZHixa1-sgHaEK?w=272&h=180&c=7&r=0&o=5&dpr=1.55&pid=1.7"
+                        alt="html/css" style="width: 150px; height:150px; text-align:center; object-fit:scale-down;">
+                    <p>HTML/CSSを用いた静的Webサイトを作成できるようになる（DB未使用）。またHTML/CSSを使ったポートフォリオサイトを作成できる</p>
+                </li>
+                <li><img src="https://th.bing.com/th/id/OIP.dbv3I_Zg63gZCuV5Y-svbgHaEO?w=277&h=180&c=7&r=0&o=5&dpr=1.55&pid=1.7"
+                        alt="テキストテキストテキスト"
+                        style="width: 150px; height:150px; text-align:center; object-fit:scale-down;">
+                    <p>PHPの基礎的なことができる。またPHP/HTML/CSS/JavaScriptを使い、動的なページ作成ができる </p>
+                </li>
+                <li><img src="https://th.bing.com/th/id/OIP.rJqbreHEjWcezc8_ZutaYwAAAA?w=153&h=180&c=7&r=0&o=5&dpr=1.55&pid=1.7"
+                        alt="テキストテキストテキスト"
+                        style="width: 150px; height:150px; text-align:center; object-fit:scale-down;">
+                    <p>Laravelを使い、CRUDアプリを作成できる。</p>
+                </li>
+                <li><img src="https://quocent.com/QUOCENT-CMS/userfiles/StaticBanner/1529923467_Javascript.png"
+                        alt="テキストテキストテキスト"
+                        style="width: 150px; height:150px; text-align:center; object-fit:scale-down;">
+                    <p>JavaScript/JQueryを使い、作成したポートフォリオに動きを付けることができる。(ex: カルーセルやモーダルなど)</p>
+                </li>
+                <li><img src="https://th.bing.com/th/id/OIP.FEvZIQaiXEQmH1Hv-36PYQHaEo?w=256&h=180&c=7&r=0&o=5&dpr=1.55&pid=1.7"
+                        alt="テキストテキストテキスト"
+                        style="width: 150px; height:150px; text-align:center; object-fit:scale-down;">
+                    <p>データベースの構築・削除などができる。PHPのコードからデータベースを呼び出すことができる</p>
+                </li>
+                <li><img src="https://th.bing.com/th/id/OIP.dpsvKSlRVJjQjM5PWUGWDAAAAA?w=161&h=180&c=7&r=0&o=5&dpr=1.55&pid=1.7"
+                        alt="テキストテキストテキスト"
+                        style="width: 150px; height:150px; text-align:center; object-fit:scale-down;">
+                    <p>主流のバージョン管理ツールであるGitの基礎コマンドを使える（add commit push pull checkout
+                        branchなど）。作成したポートフォリオなどをGitHubに公開できる。</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="wrapper" style="text-align:center; border-bottom:1px solid #333; ">
+            <h2 class="sec-title">portfolio</h2>
+            <a href=""><img src="C:\Users\Tomoki\OneDrive\デスクトップ\socialtech\images\connect.png"
+                    style="width: 400px; height: 200px;">
+                <p style="margin-bottom:100px;">オリジナルアプリ</p>
+            </a>
+        </section>
+
+
+        <section id=" contact" class="wrapper" style="text-align:center;">
+            <h2 class=" sec-title">Contact</h2>
+            <li>mail: big_westtomoki@icloud.com</li>
+            <form action="#" method="post">
+                <dl>
+                    <dt><label for="name">NAME</label></dt>
+                    <dd><input type="text" id="name" name="your-name"></dd>
+                    <dt><label for="email">E-mail</label></dt>
+                    <dd><input type="email" id="email" name="your-email"></dd>
+                    <dt><label for="message">MESSAGE</label></dt>
+                    <dd><textarea id="message" name="your-message"></textarea></dd>
+                </dl>
+                <div class="button"><input type="submit" value="送信"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2022 PortFolio</p>
+    </footer>
+
+</body>
+
+
+
+</html>
